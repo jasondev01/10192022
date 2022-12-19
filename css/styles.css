@@ -1,0 +1,356 @@
+/*********** SECTION 1 / BANNER ***********/
+.section1 {
+    background: #000;
+    position: relative;
+    
+}
+
+.style-bg {
+    background: url("../images/red.png");
+    background-repeat: no-repeat;
+    height: 748px;
+    background-position: left;
+    width: 100%;
+}
+
+.section1 .row .col-12 {
+    height: 748px;
+    margin-top: 50px;
+}
+
+.section1 .row .col-12 h1 .small-text {
+    font-size: 32px;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: 500;
+}
+
+.section1 .row .col-12 h1 .big-text {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.section2 .row .col-4 {
+    height: 800px;
+    padding: 0;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.section2 .row .col-4 .overlay {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* this needs media query */
+.section2 .row .col-4 p {
+    margin: 60px 100px;
+}
+
+.section2 .row .col-4 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.section2 .row .col-4 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.section2 .row .col-4 p {
+    font-size: 24px;
+}
+
+/*********** BUTTON ***********/
+.button {
+    width: 230px;
+    height: 60px;
+    text-decoration: none;
+    background-color: #000;
+    font-size: 18px;
+    color: rgb(254, 254, 254);
+    line-height: 2;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #aaaaaa;
+    transition: all .2s ease-in-out;
+    font-weight: 500;
+
+}
+.button:hover {
+    background-color: #92241c;
+    color: #fff;
+}
+
+.section2 .row .col-4 .bg1 {
+    background-color: #000;
+}
+
+.section2 .row .col-4 .bg2 {
+    background: url("../images/service2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.section2 .row .col-4 .bg3 {
+    background: url("../images/service3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.section2 .row .col-4 .bg3 {
+    background: url("../images/service3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section2 .row .col-4 .bg4 {
+    background: url("../images/service4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section2 .row .col-4 .bg5 {
+    background-color: #000;
+}
+
+.section2 .row .col-4 .bg6 {
+    background: url("../images/service6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*********** SECTION 4 and SECTION 6 ***********/
+.section4 .row .col-6,
+.section6 .row .col-6 {
+    height: 764px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.section4 .row .col-6.left {
+    background: url("../images/about1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section4 .row .col-6.right,
+.section6 .row .col-6.left {
+    background: url("../images/about2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section4 .row .col-6.right h3,
+.section6 .row .col-6.left h3 {
+    font-size: 32px;
+    color: #92241c;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.section4 .row .col-6.right h2,
+.section6 .row .col-6.left h2 {
+    font-size: 50px;
+    color: #222222;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+.section4 .row .col-6.right p, 
+.section6 .row .col-6.left p {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    line-height: 1.458em;
+    text-align: justify;
+    margin: 0 ;
+    padding: 30px 0;
+}
+
+/*********** SECTION 5 ***********/
+.section5 {
+    background-color: #000;
+    height: 1200px;
+}
+
+.section5 h3 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.section5 h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.section5 p {
+    font-size: 18px;
+    color: #cccccc;
+    text-transform: uppercase;
+    line-height: 1.333em;
+    text-align: center;
+}
+
+.section5 .row .col-3 {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+
+}
+
+.section5 .row .col-3 img {
+    width: 100%;
+}
+
+.section5 .row .col-3 p {
+    font-size: 18px;
+    color: #cccccc;
+    text-transform: uppercase;
+    line-height: 1.333em;
+    text-align: center;
+    padding: 20px;
+}
+
+/*********** SECTION 6 ***********/
+.section6 .row .col-6.right {
+    background: url("../images/experience1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*********** SECTION 8-1 ***********/
+.section8 {
+    background-color: #000;
+}
+
+.section8 .row .col-6 {
+    padding: 70px 0;
+}
+
+.section8 .row .col-6.contact-info ul li {
+    padding-bottom: 25px;
+}
+
+.section8 .row .col-6.contact-info ul li a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.714em;
+    text-decoration: none;
+}
+
+.section8 .row .col-6.contact-info ul li a span {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.section8 .row .col-6.contact-info ul li a .bi {
+    margin-right: 8px;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-twitter {
+    padding: 5px 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    font-size: 22px;
+    border: 1px solid #fff;
+    transition: all .2s ease-in-out;
+}
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-twitter:hover{
+    color: #fff;
+    background-color: #581611;
+} 
+  
+/*********** SECTION 8-2 / FORM ***********/
+
+.section8 .row .col-6.contact-form form h4 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.714em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section8 .row .col-6.contact-form form .row {
+    padding: 10px 0;
+}
+
+.section8 .row .col-6.contact-form form .row .col-2 {
+    flex-basis: 50%;
+}
+
+.section8 .row .col-6.contact-form form .row .col-2 input,
+.section8 .row .col-6.contact-form form .row .col-12 textarea  {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    line-height: 1.714em;
+    outline: none;
+}
+
+.section8 .row .col-6.contact-form form .row .col-12 .sendButton {
+    height: 50px;
+    width: 230px;
+    text-transform: uppercase;
+    background-color: #581611;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.714em;
+    font-weight: 500;
+    letter-spacing: .1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.section8 .row .col-6.contact-form form .row .col-12 .sendButton:hover {
+    background-color: #000;
+}
