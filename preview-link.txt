@@ -1,0 +1,3 @@
+preview link for this: https://10192022.vercel.app/
+
+note: still no media queries for all types/size of devices. 
